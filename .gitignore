@@ -1,0 +1,31 @@
+# Environments & Secrets
+.env
+.env.*
+*.env
+secret_key/
+certs/
+
+# Python / FastAPI dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Node / Next.js dependencies
+node_modules/
+.next/
+out/
+build/
+.pnpm-store/
+
+# Local Vector & Graph Storage (CRITICAL)
+backend/.qdrant/
+*.db
+*.sqlite3
+
+# Operating System files
+.DS_Store
+Thumbs.db

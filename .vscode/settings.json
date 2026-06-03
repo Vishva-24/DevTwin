@@ -1,0 +1,13 @@
+{
+  // Point VS Code / Pylance at the virtual environment so it resolves
+  // all installed packages (sqlalchemy, fastapi, pydantic, etc.) correctly.
+  // This eliminates the red squiggles on valid imports.
+  "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/backend"
+  ],
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}

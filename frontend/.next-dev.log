@@ -1,0 +1,19 @@
+
+> frontend@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 308ms
+
+ GET / 200 in 1286ms (next.js: 1170ms, application-code: 115ms)
+ GET / 200 in 27ms (next.js: 3ms, application-code: 25ms)
+✓ Compiled in 27ms
+ GET / 200 in 44ms (next.js: 29ms, application-code: 15ms)
+ GET / 200 in 50ms (next.js: 5ms, application-code: 45ms)
+ GET / 200 in 28ms (next.js: 5ms, application-code: 24ms)
+ GET / 200 in 25ms (next.js: 3ms, application-code: 22ms)
+ GET / 200 in 25ms (next.js: 3ms, application-code: 22ms)
+ GET / 200 in 95ms (next.js: 17ms, application-code: 78ms)
+ GET / 200 in 44ms (next.js: 3ms, application-code: 41ms)

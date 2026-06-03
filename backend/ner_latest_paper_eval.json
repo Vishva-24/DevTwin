@@ -1,0 +1,267 @@
+{
+  "source": "db:paper:d18b1507-c1f3-4c60-aee3-a838e38c53a7:research_manifest",
+  "spacy_entities": [
+    {
+      "text": "Matplotlib",
+      "label": "PERSON",
+      "source": "spacy",
+      "count": 4
+    },
+    {
+      "text": "Seaborn",
+      "label": "ORG",
+      "source": "spacy",
+      "count": 2
+    },
+    {
+      "text": "Pandas DataFrames",
+      "label": "ORG",
+      "source": "spacy",
+      "count": 2
+    },
+    {
+      "text": "Pandas",
+      "label": "ORG",
+      "source": "spacy",
+      "count": 2
+    },
+    {
+      "text": "Seaborn",
+      "label": "LOC",
+      "source": "spacy",
+      "count": 2
+    },
+    {
+      "text": "Python",
+      "label": "ORG",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "FacetGrid",
+      "label": "ORG",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "Data Visualization",
+      "label": "ORG",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "Missing Data Handling",
+      "label": "ORG",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "Pair Plots",
+      "label": "PERSON",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "8",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "Pandas",
+      "label": "PERSON",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "0",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    },
+    {
+      "text": "7",
+      "label": "CARDINAL",
+      "source": "spacy",
+      "count": 1
+    }
+  ],
+  "dictionary_entities": [
+    {
+      "text": "Python",
+      "label": "ProgrammingLanguage",
+      "source": "dictionary",
+      "count": 3
+    }
+  ],
+  "graph_candidates": [
+    {
+      "node_type": "Location",
+      "name": "Seaborn",
+      "frequency": 2,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "LOC"
+      ]
+    },
+    {
+      "node_type": "Organization",
+      "name": "Pandas",
+      "frequency": 2,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "ORG"
+      ]
+    },
+    {
+      "node_type": "Organization",
+      "name": "Pandas DataFrames",
+      "frequency": 2,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "ORG"
+      ]
+    },
+    {
+      "node_type": "Organization",
+      "name": "Seaborn",
+      "frequency": 2,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "ORG"
+      ]
+    },
+    {
+      "node_type": "Organization",
+      "name": "Data Visualization",
+      "frequency": 1,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "ORG"
+      ]
+    },
+    {
+      "node_type": "Organization",
+      "name": "FacetGrid",
+      "frequency": 1,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "ORG"
+      ]
+    },
+    {
+      "node_type": "Organization",
+      "name": "Missing Data Handling",
+      "frequency": 1,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "ORG"
+      ]
+    },
+    {
+      "node_type": "Organization",
+      "name": "Python",
+      "frequency": 1,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "ORG"
+      ]
+    },
+    {
+      "node_type": "Person",
+      "name": "Matplotlib",
+      "frequency": 4,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "PERSON"
+      ]
+    },
+    {
+      "node_type": "Person",
+      "name": "Pair Plots",
+      "frequency": 1,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "PERSON"
+      ]
+    },
+    {
+      "node_type": "Person",
+      "name": "Pandas",
+      "frequency": 1,
+      "evidence_sources": [
+        "spacy"
+      ],
+      "raw_labels": [
+        "PERSON"
+      ]
+    },
+    {
+      "node_type": "ProgrammingLanguage",
+      "name": "Python",
+      "frequency": 3,
+      "evidence_sources": [
+        "dictionary"
+      ],
+      "raw_labels": [
+        "ProgrammingLanguage"
+      ]
+    }
+  ]
+}
